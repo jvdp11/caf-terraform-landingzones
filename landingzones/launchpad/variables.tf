@@ -19,7 +19,7 @@ variable level {
 
 variable location {
   type        = string
-  default     = "southeastasia"
+  default     = "westeurope"
   description = "Location of the launchpad landing zone"
 }
 
@@ -61,7 +61,7 @@ variable keyvaults {
     launchpad = {
       name                = "launchpad"
       resource_group_name = "caf-foundations"
-      region              = "southeastasia"
+      region              = "westeurope"
       convention          = "cafrandom"
       sku_name            = "standard"
     }
